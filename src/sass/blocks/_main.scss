@@ -85,6 +85,9 @@
         color: $main-color;
         cursor: pointer;
         margin-top: 40px;
-        margin-bottom: 80px;
+        &:hover {
+            background-color: $main-color;
+            color: #ec644b;
+        }
     }
 }
