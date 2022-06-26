@@ -1,0 +1,77 @@
+.promo {
+    min-height: 100vh;
+    background: url('../img/main.jpg') no-repeat 50% / cover;
+    color: $main-color;
+    .header {
+        padding-top: 23px;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        &__nav {
+            width: 600px;
+            ul {
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                li {
+                    &:after {
+                        content: '';
+                        border-left: 1px dotted white;
+                        margin-left: 10px;
+                        padding-bottom: 2px;
+                    }
+                }
+                li:last-child:after {
+                    display: none;
+                }
+                a {
+                    color: $main-color;
+                    text-decoration: none;
+                    font-size: 15px;  
+                    font-weight: 400;
+                    &:hover {
+                        text-decoration: underline;
+                        color: #ec644b;
+                    }
+                }
+            }
+        }
+        &__promo {
+            display: flex;            
+            margin: 0; 
+            height: 50px;  
+            width: 350px;
+            justify-content: space-between;        
+            &-wrapper {
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+            }            
+            &-descr {
+                font-size: 14px;
+                font-weight: 300;
+                align-self: end;
+            }
+            a {
+                font-size: 19px;
+                font-weight: 700;
+                color: $main-color;
+                text-decoration: none;
+            }
+        }
+        &__btns {
+            width: 160px;
+            height: 45px;
+            background-color: #ec644b;
+            border-radius: 25px;
+            border: none;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $main-color;
+            cursor: pointer;
+        }
+    }
+    
+}
