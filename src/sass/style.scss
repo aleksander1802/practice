@@ -21,8 +21,15 @@ body {
     margin: 0 auto;
 }
 
+.divider {
+    border-bottom: 1px solid #ec644b;
+    width: 148px;
+    margin: 0 auto;
+}
+
 @import './blocks/title';
 @import './blocks/promo';
 @import './blocks/main';
 @import './blocks/advantages';
+@import './blocks/work';
 

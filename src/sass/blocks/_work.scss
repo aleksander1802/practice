@@ -1,0 +1,40 @@
+.work {
+    padding: 51px 0 57px 0;  
+    &__subtitle {
+        margin: 0 auto;
+        width: 880px;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;  
+        text-align: center;   
+        margin-top: 17px;   
+    }
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        &_item {
+            width: 360px;
+        }
+        img {
+            width: 360px;
+            height: 210px;
+            object-fit: cover;
+        }
+        &-title {
+            margin-top: 28px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ec644b;
+            
+        }
+        &-descr {
+            margin-top: 7px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+    }
+}
