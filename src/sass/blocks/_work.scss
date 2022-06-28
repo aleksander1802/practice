@@ -1,5 +1,5 @@
 .work {
-    padding: 51px 0 57px 0;  
+    padding: 51px 0 57px 0; 
     &__subtitle {
         margin: 0 auto;
         width: 880px;
@@ -10,12 +10,12 @@
         margin-top: 17px;   
     }
     &__wrapper {
-        margin-top: 37px;
         display: flex;
-        justify-content: space-between;
         text-align: center;
         flex-wrap: wrap;
+        justify-content: space-between;
         &_item {
+            margin-top: 37px;    
             width: 360px;
         }
         img {
@@ -28,7 +28,6 @@
             font-size: 18px;
             font-weight: 700;
             color: #ec644b;
-            
         }
         &-descr {
             margin-top: 7px;
