@@ -642,4 +642,55 @@ body {
   width: 845px;
   line-height: 20px;
 }
+
+.comment {
+  padding: 51px 0 65px 0;
+  margin: 0 auto;
+}
+
+.comment__prev {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.comment__subtitle {
+  margin-top: 17px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.comment__slider-img {
+  display: inline-block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.comment__slider-title {
+  margin-top: 19px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.comment__slider-descr {
+  margin-top: 5px;
+  font-size: 14.1px;
+  line-height: 22px;
+}
+
+.slider {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 31px;
+  text-align: center;
+  position: relative;
+}
+
+.slider button.slick-prev {
+  position: absolute;
+  top: 50%;
+}
 /*# sourceMappingURL=style.min.css.map */

@@ -1,4 +1,31 @@
 
+$(document).ready(function(){
+    $('.slider').slick({
+      
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // function count (string) {  
 // //     var count = {};
 // //     string.split('').forEach(function(s) {

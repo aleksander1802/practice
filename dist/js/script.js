@@ -1,4 +1,27 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // function count (string) {  
 // //     var count = {};
 // //     string.split('').forEach(function(s) {
@@ -76,16 +99,16 @@
 
 
 
-const requestURL = 'https://www.random.org/integers/?num=10&min=1&max=6&col=1&base=10&format=plain&rnd=new';
+// const requestURL = 'https://www.random.org/integers/?num=10&min=1&max=6&col=1&base=10&format=plain&rnd=new';
 
- function getRequest(method, url) {
-     return fetch(url).then(response => {
-        return response.text();
-    })
-}
+//  function getRequest(method, url) {
+//      return fetch(url).then(response => {
+//         return response.text();
+//     })
+// }
 
-getRequest('GET', requestURL)
-    .then(data => console.log(data))
-    .catch(error => console.log(error))
+// getRequest('GET', requestURL)
+//     .then(data => console.log(data))
+//     .catch(error => console.log(error))
 
 
