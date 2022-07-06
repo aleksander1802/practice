@@ -30,6 +30,10 @@ body {
     margin-top: 20px
 }
 
+.footer {
+    height: 500px;
+}
+
 @import './blocks/title';
 @import './blocks/promo';
 @import './blocks/main';
@@ -42,4 +46,6 @@ body {
 @import './blocks/scheme';
 @import './blocks/comment';
 @import './blocks/question';
+@import './blocks/footer';
+@import './blocks/overlay';
 

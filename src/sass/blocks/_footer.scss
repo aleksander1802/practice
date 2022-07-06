@@ -1,0 +1,39 @@
+.footer {
+    position: relative;
+    &__wrapper {
+        padding: 27px 49px 28px 33px;
+        position: absolute;
+        height: 110px;
+        width: 240px;
+        z-index: 10;
+        background-color: #fff;
+        top: 31%;
+        left: 53%;
+        font-size: 14px;
+        color: #ec644b;
+        
+        &-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        &-descr {
+            color: #3a3a3a;
+            line-height: 20px;
+            margin-bottom: 5px;
+        }
+        a {
+            color: #ec644b;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: rgb(255, 255, 255);
+            left: -15px;
+            top: 60px;
+            transform: rotate(45deg);
+        }
+    }
+}

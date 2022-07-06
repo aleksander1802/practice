@@ -21,6 +21,10 @@ body {
   margin-top: 20px;
 }
 
+.footer {
+  height: 500px;
+}
+
 .title {
   text-align: center;
   font-size: 26px;
@@ -744,4 +748,159 @@ body {
 .question__btns:hover {
   background-color: white;
   color: #ec644b;
+}
+
+.footer {
+  position: relative;
+}
+.footer__wrapper {
+  padding: 27px 49px 28px 33px;
+  position: absolute;
+  height: 110px;
+  width: 240px;
+  z-index: 10;
+  background-color: #fff;
+  top: 31%;
+  left: 53%;
+  font-size: 14px;
+  color: #ec644b;
+}
+.footer__wrapper-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer__wrapper-descr {
+  color: #3a3a3a;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.footer__wrapper a {
+  color: #ec644b;
+}
+.footer__wrapper:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  left: -15px;
+  top: 60px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.overlay {
+  padding: 24px 0 28px;
+  background-color: #1d282f;
+  position: relative;
+}
+.overlay__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.overlay__header_wrapper {
+  display: grid;
+  grid-template-columns: 70px 500px;
+  grid-template-rows: repeat(3, 30px);
+  -webkit-column-gap: 43px;
+     -moz-column-gap: 43px;
+          column-gap: 43px;
+}
+.overlay__header_wrapper-logo {
+  grid-row: 1/4;
+  align-self: center;
+}
+.overlay__header_wrapper-title {
+  grid-row: 2;
+  align-self: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.overlay__wrapper {
+  display: grid;
+  grid-template-columns: auto 180px;
+  grid-template-rows: repeat(2, 30px);
+  justify-items: end;
+}
+.overlay__wrapper-descr {
+  font-size: 14px;
+  color: #ffffff;
+  -ms-flex-item-align: end;
+      align-self: end;
+}
+.overlay__wrapper-tel {
+  grid-column: 1;
+  grid-row: 2/4;
+}
+.overlay__wrapper-tel a {
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.overlay__wrapper-btns {
+  margin-top: 11px;
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  border-radius: 25px;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+.overlay__divider:before {
+  position: absolute;
+  content: "";
+  width: 1171px;
+  border-bottom: 1px solid white;
+  top: 130px;
+  left: 90px;
+  opacity: 0.3;
+}
+.overlay__footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 57px;
+}
+.overlay__footer-rights {
+  opacity: 0.6;
+  font-size: 13px;
+  color: #ffffff;
+}
+.overlay__footer-policy {
+  position: absolute;
+  left: 360px;
+  font-size: 13px;
+  color: #ec644b;
+}
+.overlay__footer_create {
+  width: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.6;
+}
+.overlay__footer_create-descr {
+  font-size: 13px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.min.css.map */
